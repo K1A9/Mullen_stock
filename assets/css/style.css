@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Sofia Sans, sans-serif;
+    font-weight: 400;
+    color: #129182;
+}
+
+/* heading and logo*/
+
+#logo {
+    float: center;
+    font-size: 300%;
+    margin-right: 40px;
+}
+
+h1, h2 {
+    font-family: Sofia Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #129182;
+}
+
+#categories {
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
+
+#categories, #logo {
+        line-height: 50px;
+    } 
+
+#categories li {
+        float: right;
+        list-style-type: disc;
+        margin-right: 30px;
+    }
+
+#categories a {
+        text-decoration: solid underline purple 4px;
+        color: inherit;
+    }
+
+#categories a:hover {
+        border-bottom: 2px solid gainsboro;
+    }
+
+.active {
+        border-bottom: 1px solid #1ab5c7;
+    }
