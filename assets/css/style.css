@@ -4,15 +4,19 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Sofia Sans, sans-serif;
     font-weight: 400;
-    color: #129182;
+    color: #215d56;
 }
 
 /* heading and logo*/
+header a {
+    text-decoration: none;
+}
 
 #logo {
     float: center;
@@ -20,11 +24,26 @@ body {
     margin-right: 40px;
 }
 
-h1, h2 {
+h1 {
     font-family: Sofia Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #129182;
+    color: #215d56;
+
+}
+
+h2 {
+    font-family: Sofia Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #215d56;
+}
+
+h3 {
+    font-family: Sofia Sans, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    color: #ffffff;
 }
 
 #categories {
@@ -43,7 +62,7 @@ h1, h2 {
     }
 
 #categories a {
-        text-decoration: solid underline purple 4px;
+        text-decoration: overline rgb(144, 230, 205) 1px;
         color: inherit;
     }
 
@@ -54,3 +73,61 @@ h1, h2 {
 .active {
         border-bottom: 1px solid #1ab5c7;
     }
+
+/* lights image */
+
+#mullen-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#mullen-text, #mullen-text h2 {
+    color: #fff;
+}
+
+#lights-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-pixabay-315938.jpg) no-repeat center center;
+    overflow: hidden;
+
+    /* animates zoom effect on leading page */
+
+    animation-name: lights-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+/* transforms the lights image*/
+
+@keyframes lights-zoom {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#mullen-text {
+    font-size: 130%;
+    font-family: Sofia Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 600px;
+    height: 130px;
+    
+    padding-top: 5px;
+    padding-left: 10px;
+
+    background-color: rgba(14, 82, 68, 0.7);
+
+    bottom: 5px;
+    right: 150px;
+
+    position: absolute; top: 40px; left: 40px;
+}
