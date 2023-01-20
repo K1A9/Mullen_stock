@@ -46,6 +46,13 @@ h3 {
     color: #ffffff;
 }
 
+h5 {
+    font-family: Sofia Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #64c8bc;
+}
+
 #categories {
         font-size: 100%;
         letter-spacing: 3px;
@@ -80,7 +87,7 @@ h3 {
     height: 700px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative; 
 }
 
 #mullen-text, #mullen-text h2 {
@@ -89,7 +96,7 @@ h3 {
 
 #lights-image {
     height: 600px;
-    width: 100%;
+    width: 70%;
     background: url(../images/pexels-deva-darshan-1173777.jpg) no-repeat center center;
     overflow: hidden;
 
@@ -105,7 +112,7 @@ h3 {
 
 @keyframes lights-zoom {
     from {
-        transform: scale(0.9);
+        transform: scale(0.4);
     }
     to {
         transform: scale(1.1);
@@ -121,15 +128,38 @@ h3 {
     width: 600px;
     height: 130px;
     
-    padding-top: 5px;
-    padding-left: 10px;
-
-    background-color: rgba(14, 82, 68, 0.7);
+    padding-top: 400px;
+    padding-left: 450px;
 
     bottom: 5px;
-    right: 150px;
+    right: 160px;
 
-    position: absolute; top: 40px; left: 40px;
+    position: absolute; top: 40px; left: 480px;
+}
+
+#intro-investors {
+    font-size: 170%;
+    font-family: Sofia Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 600px;
+    height: 100px;
+    
+    padding-top: 40px;
+    padding-left: 450px;
+
+    bottom: 5px;
+    right: 160px;
+
+    position: absolute; top: 2px; left: 200px;
+}
+
+ div h3 <{
+    font-family: Sofia Sans, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #215d56;
 }
 
 /* Milestone section*/
@@ -144,7 +174,7 @@ h3 {
 
 #milestones div {
     color:#fafafa;
-    background-color: rgba(15, 90, 140, 0.6);
+    background-color: rgba(63, 140, 191, 0.6);
     width: 50%;
     height: 300px;
     float: left;
