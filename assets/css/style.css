@@ -36,7 +36,7 @@ h2 {
     font-family: Sofia Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #64c8bc;
+    color: #55c8bc;
 }
 
 h3 {
@@ -174,7 +174,6 @@ h5 {
 
 #milestones div {
     color:#fafafa;
-    background-color: rgba(63, 140, 191, 0.6);
     width: 50%;
     height: 300px;
     float: left;
@@ -186,6 +185,36 @@ h5 {
 
 #information {
     text-align: center;
-    margin: 20px 0;
+    margin: 0px 0;
     font-size: 280%;
+    color: #215d56;
+    background-color: #fff;
+    background-image: none;
 }
+
+#milestones {
+background-image: url(../images/pexels-pixabay-315938.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+overflow:hidden;
+}
+
+/* Social Networks */
+
+.social-networks {
+    text-align: center;
+    display: outside;
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
