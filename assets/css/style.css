@@ -199,6 +199,11 @@ background-size: cover;
 background-position: center;
 width: 100%;
 overflow:hidden;
+opacity: 0.5
+}
+
+#milestones:hover {
+    opacity: 1.0
 }
 
 /* Social Networks */
