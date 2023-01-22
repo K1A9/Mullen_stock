@@ -246,16 +246,16 @@ opacity: 0.5
 }
 
 .social-news {
-    text-align: center;
+    text-align: left;
 }
 
 .social-news > li {
-    display: inline;
+    display: inline-flexbox;
 }
 
 .social-news i {
-    font-size: 160%;
-    margin: 1%;
+    font-size: 900%;
+    margin: 5%;
     padding: 5%;
-    color: #060a09;
+    color: #55c8bc;
 }
