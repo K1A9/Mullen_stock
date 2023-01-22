@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
 * {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     border: none;
     box-sizing: border-box;
@@ -22,6 +22,7 @@ header a {
     float: center;
     font-size: 300%;
     margin-right: 40px;
+    line-height: 50px;
 }
 
 h1 {
@@ -56,6 +57,7 @@ h5 {
 #categories {
         font-size: 100%;
         letter-spacing: 3px;
+        text-align: right;
     }
 
 #categories, #logo {
@@ -63,7 +65,7 @@ h5 {
     } 
 
 #categories li {
-        float: right;
+        display: inline-block;
         list-style-type: disc;
         margin-right: 30px;
     }
@@ -242,20 +244,20 @@ opacity: 0.5
 }
 
 #news {
-    height: 150px;
+    height: 400px;
 }
 
 .social-news {
-    text-align: left;
+    text-align: center;
 }
 
 .social-news > li {
-    display: inline-flexbox;
+    display: list-item;
 }
 
 .social-news i {
     font-size: 900%;
-    margin: 5%;
-    padding: 5%;
+    margin: 0%;
+    padding: 0%;
     color: #55c8bc;
 }
