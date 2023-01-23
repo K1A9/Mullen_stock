@@ -86,7 +86,7 @@ h5 {
 /* lights image */
 
 #mullen-outer {
-    height: 700px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative; 
@@ -97,7 +97,7 @@ h5 {
 }
 
 #lights-image {
-    height: 600px;
+    height: 500px;
     width: 70%;
     background: url(../images/pexels-deva-darshan-1173777.jpg) no-repeat center center;
     overflow: hidden;
@@ -127,10 +127,10 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 600px;
-    height: 130px;
+    width: 500px;
+    height: 0px;
     
-    padding-top: 400px;
+    padding-top: 250px;
     padding-left: 450px;
 
     bottom: 5px;
@@ -140,7 +140,7 @@ h5 {
 }
 
 #intro-investors {
-    font-size: 170%;
+    font-size: 150%;
     font-family: Sofia Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -148,7 +148,7 @@ h5 {
     width: 600px;
     height: 100px;
     
-    padding-top: 40px;
+    padding-top: 0px;
     padding-left: 450px;
 
     bottom: 5px;
@@ -175,11 +175,11 @@ h5 {
 }
 
 #milestones div {
-    color:#fafafa;
+    color:#215d56;
     width: 50%;
-    height: 300px;
+    height: 230px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 26px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -250,6 +250,7 @@ opacity: 0.5
 
 .social-news {
     text-align: center;
+    padding-top: 100px;
 }
 
 .social-news > li {
@@ -264,6 +265,17 @@ opacity: 0.5
     color: #55c8bc;
 }
 
+#newsh {
+    text-align: center;
+}
+
+.social-news:hover {
+    color: #55c8bc;
+    border-color: #1c5437;
+    
+}
+
+
 /* form style */
 
 .form-section {
@@ -271,7 +283,7 @@ opacity: 0.5
     background: url("../images/pexels-matheus-bertelli-799443.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 520px;
 }
 
 #memberH {
@@ -290,7 +302,7 @@ opacity: 0.5
 }
 
 .signup-form {
-    margin: 120px 10% 0% 0%;
+    margin: 70px 10% 0% 0%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
@@ -301,4 +313,20 @@ opacity: 0.5
 
 .label-color:hover {
     border-color: #119089;
+}
+
+.moon-button {
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #73d7b6;
+    color: #fafafa;
+    display: block;
+    border-radius: 1px;
+}
+
+.moon-button:hover {
+    background-color: #73d7b6;
+    color: #1c5437;
 }
