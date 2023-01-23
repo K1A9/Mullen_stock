@@ -23,6 +23,8 @@ In this file you will find the main page of the project which is made up of an i
 
 The content is a welcome to visitors interested in knowing about the MULN (Muln automotive) stock. Two texts are shown here "Because we love the stock" which alludes to an immediate approach to those who already trade the stock and approaches those who do not know it yet. The secondary text is "Informative website...". This text is intended to clarify the content and purpose of the page. 
 
+In this section and audio control was also added just to demonstrate what was learnt in the course, the audio was taken from the Code institute program to avoig copyright problems (http://codeinstitute.s3.amazonaws.com/HTMLEssentials/btn-audio.mp3). The Audio is introduced with a normal controls set up which can be first played by the user and will not automatically be played when the web page is loaded by the browser.
+
 information.html
 
 In this section of Information about Mullen, 4 boxes are identified with some descriptive information about the company Mullen Automotive, its battery as a banner in its long term trading; its interpretation as a Stock meme whose scope has made it a trend topic within the most traded stocks last year; and finally the description of what DD means to those outside of stock trading.  

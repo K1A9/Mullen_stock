@@ -336,3 +336,7 @@ opacity: 0.5
 footer {
     padding-top: 70px;
 }
+
+#footer-main {
+    padding-top: 0px;
+}
