@@ -340,3 +340,46 @@ footer {
 #footer-main {
     padding-top: 0px;
 }
+
+/* Media criteria */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #mullen-text {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        width: 100%;
+}
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+#categories {
+    clear: both;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#logo {
+    width: 90%;
+}
+
+.social-news {
+    column-count: 1;
+}
+
+#social-news {
+    width: 50%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+}
+}
+
