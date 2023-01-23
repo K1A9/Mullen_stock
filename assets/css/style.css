@@ -256,6 +256,8 @@ opacity: 0.5
 .social-news > li {
     display: inline-block;
     width: 23%;
+    opacity: 0.5;
+    transition: opacity 500ms ease;
 }
 
 .social-news i {
@@ -269,14 +271,14 @@ opacity: 0.5
     text-align: center;
 }
 
-.social-news:hover {
+.social-news > li:hover {
     color: #55c8bc;
     border-color: #1c5437;
-    
+    opacity: 1.0
 }
 
 
-/* form style */
+/* form  "be a member!" style */
 
 .form-section {
     clear: left;
